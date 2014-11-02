@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
+    <name>Mingle</name>
     <description>
-        Bluetooth link up
+        Network better faster smarter
     </description>
     <author email="damian.orourke@webinnovate.ie" href="http://damianorourke.com">
         Apache Cordova Team
     </author>
     <content src="index.html" />
     <access origin="*" />
-    
+
     <gap:plugin name="com.megster.cordova.bluetoothserial" version="0.3.1" />
     <!-- iphone force profile view only -->
     <preference name="orientation" value="portrait" />
