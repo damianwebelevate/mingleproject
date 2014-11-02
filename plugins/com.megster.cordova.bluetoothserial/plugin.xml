@@ -1,18 +1,16 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Mingle</name>
-    <description>
-        Network better faster smarter
-    </description>
-    <author email="damian.orourke@webinnovate.ie" href="http://damianorourke.com">
-        Apache Cordova Team
-    </author>
-    <content src="index.html" />
-    <access origin="*" />
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+    xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.megster.cordova.bluetoothserial"
+    version="0.3.1">
 
-    <gap:plugin name="com.megster.cordova.bluetoothserial" version="0.3.1" />
-    <!-- iphone force profile view only -->
-    <preference name="orientation" value="portrait" />
+    <name>Bluetooth Serial</name>
+    <description>Bluetooth Serial Communication Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>bluetooth, BLE, arduino</keywords>
+    <repo>https://github.com/don/BluetoothSerial.git</repo>
+    <issue>https://github.com/don/BluetoothSerial/issues</issue>
 
     <engines>
         <engine name="cordova" version=">=2.9.0" />
@@ -68,5 +66,4 @@
         <framework src="CoreBluetooth.framework" />
 
     </platform>
-    
-</widget>
+</plugin>
